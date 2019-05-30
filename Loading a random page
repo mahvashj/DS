@@ -1,0 +1,10 @@
+#Loading a random page from Wikipedia 
+#Done on Jupyter notebook
+#Use the request library, that was used it in the function display_cover, 
+#but should import the library in the next cell in Jupyter notebook.
+
+import requests
+
+#The following is the URL to the page
+
+wikipedia_link='https://en.wikipedia.org/wiki/Special:Random'
