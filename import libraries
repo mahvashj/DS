@@ -1,1 +1,7 @@
+#Inspiration: Fake Album Covers: https://fakealbumcovers.com/
+#Import libraries
 
+from IPython.display import Image as IPythonImage
+from PIL import Image
+from PIL import ImageFont
+from PIL import ImageDraw
