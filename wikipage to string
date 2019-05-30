@@ -1,0 +1,17 @@
+#Done on Jupyter notebooks
+#using thefunction get from the requests library to download the Wikipedia page
+#using the wikipedia_link as an argument. 
+#Assigning the object to the variable raw_random_wikipedia_page.
+
+
+raw_random_wikipedia_page=requests.get(wikipedia_link)
+
+print(raw_random_wikipedia_page.url)
+#out
+https://en.wikipedia.org/wiki/Bumetopia_elongata
+
+
+raw_random_wikipedia_page.text
+
+#out
+'<!DOCTYPE html>\n<html class="client-nojs" lang="en" dir="ltr">\n<head>\n<meta charset="UTF-8"/>\n<title>Bumetopia elongata - Wikipedia</title>\n<script>document.documentElement.className = document.documentElement.className.replace( /(^|\\s)client-nojs(\\s|$)/, "$1client-js$2" );</script>\n<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonic
