@@ -1,0 +1,8 @@
+img=display_cover(top='top',bottom='bottom')
+#To save the image, we use the method save . 
+#The argument is the file name of the image we would like to save in this case 'sample-out.png'
+
+img.save('sample-out.png')
+Finely we use IPythonImage to read the image file and display the results.
+
+IPythonImage(filename='sample-out.png')
